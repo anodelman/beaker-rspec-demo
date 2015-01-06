@@ -1,0 +1,14 @@
+{
+  "name": "user-demo",
+  "version": "0.0.1",
+  "author": "alice.nodelman",
+  "summary": "For use in learning how to write beaker-rspec acceptance tests.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/anodelman/beaker-rspec-demo",
+  "project_page": "https://github.com/anodelman/beaker-rspec-demo",
+  "issues_url": "https://github.com/anodelman/beaker-rspec-demo/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
