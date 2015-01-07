@@ -5,11 +5,8 @@ describe "my tests" do
   # an example using the beaker DSL
   # use http://www.rubydoc.info/github/puppetlabs/beaker/Beaker/DSL
   it "should say hello!" do
-    hosts.each do |host|
-      on host, 'echo hello' do |result|
-        expect(result.stdout).to match(/hello/)
-      end
-    end
+    result = shell( 'echo hello' )
+    expect(result.stdout).to match(/hello/)
   end
 
   # an example using Serverspec
